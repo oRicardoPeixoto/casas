@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(102, 101, 101);
+    overflow-x: hidden;
+}
+
+.banner img {
+    max-height: 440px;
+    min-width: 100vw;
+    object-fit: fill;
+    
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+}
+
+.text {
+    flex: 1;
+}
+
+.text h2 {
+    margin-top: 0;
+    padding: 25px;
+}
+
+.image {
+    flex: 1;
+    text-align: right;
+}
+
+.image img {
+    border: 1px solid white;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.project {
+    height: 70px;
+    width: 70px;
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1.5s ease;
+    opacity: 0;
+}
+
+.project img{
+    width: 100%;
+    border: solid 1px white;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.project.visible {
+    opacity: 1;
+}
+
+.rodape {
+    background-color: black;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .colorido {
+    color: white;
+  }
+    
